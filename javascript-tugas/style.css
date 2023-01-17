@@ -1,0 +1,24 @@
+input[type="button"] {
+    display: block;
+    float: left;
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: cadetblue;
+}
+
+input[type="text"] {
+    background-color: rgb(199, 225, 225);
+}
+
+input {
+    font-size: 20px !important;
+}
+
+h1 {
+    margin-top: 50px;
+    font-style: italic;
+    text-align: center;
+}
