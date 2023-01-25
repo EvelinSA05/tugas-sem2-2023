@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Quiz Matematika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <span>Nilai : <span id="nilai">0</span></span>
+            <span id="turun">0</span>
+        </div>
+        <div class="body">
+            <div class="quest active">
+                <h4>1. Hasil Perkalian dari 100 x 100 : 1000 + 1 adalah...</h4>
+                <div class="answer">
+                    <input type="radio" name="a1" valid="valid">
+                    <span>11</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a1">
+                    <span>10</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a1">
+                    <span>111</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a1">
+                    <span>121</span>
+                </div>
+            </div>
+            <div class="quest">
+                <h4>2. Tokoh Islam yang berperan dalam ilmu matematika adalah...</h4>
+                <div class="answer">
+                    <input type="radio" name="a2">
+                    <span>Gorys Keraf</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a2" valid="valid">
+                    <span>Al-Khawarizmi</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a2">
+                    <span>Michel Breal</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a2">
+                    <span>Sunan Kalijaga</span>
+                </div>
+            </div>
+            <div class="quest">
+                <h4>3. Sebutkan satu-satunya bilangan prima genap...</h4>
+                <div class="answer">
+                    <input type="radio" name="a3">
+                    <span>96</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a3">
+                    <span>16</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a3" valid="valid">
+                    <span>2</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a3">
+                    <span>22</span>
+                </div>
+            </div>
+            <div class="quest">
+                <h4>4. Siapa yang menemukan tanda '=' ?</h4>
+                <div class="answer">
+                    <input type="radio" name="a4">
+                    <span>Recorde da Span</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a4">
+                    <span>Khoi Can Cei</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a4">
+                    <span>Coi Gil Gyu</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a4" valid="valid">
+                    <span>Robert Recorde</span>
+                </div>
+            </div>
+            <div class="quest">
+                <h4>5. Hasil penjumlahan dari 1263 + 846 + 429 adalah...</h4>
+                <div class="answer">
+                    <input type="radio" name="a5">
+                    <span>Tak Terhingga</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a5">
+                    <span>4539</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a5" valid="valid">
+                    <span>2538</span>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="a5">
+                    <span>1539</span>
+                </div>
+            </div>
+            <div class="quest" style="text-align: center;">
+                <h4>Nilai Kamu Adalah... <span id="total" style="color: red;">0</span> Dari 100</h4>
+                <a style="text-decoration: none;" href="index.html" class="btn1">Kembali</a>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="btn1" id="next">Next</span>
+        </div>
+    </div>
+
+    <script src="game/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: pink;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 600px;
+}
+
+.container{
+    width: 500px;
+    padding: 20px;
+    min-height: 100px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color:whitesmoke;
+}
+
+.header{
+    background-color:deeppink;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: -20px -20px 20px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+}
+
+.quest{
+    display: none;
+}
+
+.quest.active{
+    display: block;
+}
+
+.quest h4{
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+
+.answer{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.answer input{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.answer span{
+    display: block;
+    padding: 8px 15px;
+    background-color: #bad0c9;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.answer:hover span{
+    background-color: #9ab5ac;
+}
+
+.answer input:checked + span{
+    background-color: red;
+}
+
+.answer input[valid]:checked + span{
+    background-color: green;
+}
+
+.footer{
+    padding: 10px 0 0;
+    text-align: right;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color:violet;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;   
+}
+
+.btn1:hover{
+    background-color:darkmagenta;
+}
+
+.footer h4{
+    font-style: italic;
+    font-size: x-large;
+}
+
